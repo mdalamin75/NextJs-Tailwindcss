@@ -11,12 +11,12 @@ const Home = () => {
                     <h4 className="text-orange-500 uppercase text-4xl md:text-5xl text-center md:text-left font-bold leading-normal mb-2 ">WELCOME</h4>
                     <h3 className="text-white uppercase text-6xl md:text-9xl text-center md:text-left font-bold leading-10 mb-10 md:mb-20 ">Avalon</h3>
                     <p className="text-white text-lg font-light p-0 leading-normal mb-12 text-center md:text-left">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
-                    <Link href="/about">
+                    <Link href="#contact" passHref>
                       <span className="my_btn_main hidden md:block mb-3">Book Now 
                         <span className="my_btn_inner"><IoIosArrowForward className="mx-auto mt-3 text-lg"></IoIosArrowForward></span>
                       </span>
                     </Link> 
-                    <Link href="/about">
+                    <Link href="#about" passHref>
                       <span className="my_btn_main hidden md:block">About Us 
                         <span className="my_btn_inner"><IoIosArrowForward className="mx-auto mt-3 text-lg"></IoIosArrowForward></span>
                       </span>

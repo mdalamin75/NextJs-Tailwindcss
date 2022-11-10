@@ -49,7 +49,7 @@ const ChooseUs = () => {
                     </div>
                 </div>
                 <div className="choose_btn flex justify-center">
-                    <Link href="/about">
+                    <Link href="/about" passHref>
                         <span className="my_btn_main">Read More 
                             <span className="my_btn_inner"><IoIosArrowForward className="mx-auto mt-3 text-lg"></IoIosArrowForward></span>
                         </span>

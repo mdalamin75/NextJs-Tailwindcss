@@ -137,3 +137,9 @@ body{
   z-index: 9;
 }
 /* Testimonial Page End Here */
+#more, #more2 {
+  display: none;
+}
+#seeMore{
+  display: none;
+}

@@ -1,7 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import Link from "next/link";
-import {IoIosArrowForward} from "react-icons/io"
 import Navbar from './component/Navbar';
 import Home from './component/Home';
 import About from './component/About';

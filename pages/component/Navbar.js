@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 
@@ -35,7 +36,7 @@ const Navbar = () => {
             <div className="logo col-span-4 lg:col-span-2 mx-auto lg:ml-12 ">
                 <Link href="/">
                     <a>
-                        <img src="images/logo.png" alt="logo" />
+                        <Image src="/images/logo.png" alt="logo" width={70} height={70} />
                     </a>
                 </Link>
             </div>
@@ -44,7 +45,7 @@ const Navbar = () => {
                     <li className="cursor-pointer">
                         <Link href="/">
                             <a className="flex cursor-pointer">
-                                <img src="images/phone_icon.png" alt="phone" />
+                                <Image src="/images/phone_icon.png" alt="phone" width={20} height={10}/>
                                 <span className="ml-4 hidden lg:inline">987-654-3210 </span>
                             </a>
                         </Link>
@@ -52,7 +53,7 @@ const Navbar = () => {
                     <li>
                         <Link href="/">
                             <a className="flex">
-                                <img src="images/mail_icon.png" alt="email" />
+                                <Image src="/images/mail_icon.png" alt="email" width={20} height={10}/>
                                 <span className="ml-4 hidden lg:inline">demo@gmail.com </span>
                             </a>
                         </Link>
@@ -60,14 +61,14 @@ const Navbar = () => {
                     <li className="flex">
                         <Link href="/">
                             <a>
-                                <img src="images/search_icon.png" alt="search" />
+                                <Image src="/images/search_icon.png" alt="search"width={20} height={20} />
                             </a>
                         </Link>
                     </li>
                     <li className="flex">
                         <button onClick={openNav}>
                             <a >
-                                <img src="images/menu_icon.png" alt="menu" />
+                                <Image src="/images/menu_icon.png" alt="menu" width={20} height={20}/>
                             </a>
                         </button>
                     </li>
