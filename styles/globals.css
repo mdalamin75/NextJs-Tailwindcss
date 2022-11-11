@@ -137,9 +137,19 @@ body{
   z-index: 9;
 }
 /* Testimonial Page End Here */
-#more, #more2 {
+#more, #more2, #chouseUsMore, #chouseUsMore2, #chouseUsMore3{
   display: none;
 }
 #seeMore{
   display: none;
+}
+.scrolled {
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #161c34;
+  border-bottom: 1px solid #F36B2A;
 }

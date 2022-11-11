@@ -1,8 +1,30 @@
 import Image from "next/image";
 import Link from "next/link";
+import * as Scroll from "react-scroll";
+import { useState, useEffect } from "react";
 
 
 const Navbar = () => {
+    let Link = Scroll.Link;
+    const [scrolled,setScrolled]=useState(false);
+
+    const handleScroll=() => {
+        const offset=window.scrollY;
+        if(offset > 100 ){
+        setScrolled(true);
+        }
+        else{
+        setScrolled(false);
+        }
+    }
+    useEffect(() => {
+        window.addEventListener('scroll',handleScroll)
+    })
+
+    let x=['header'];
+    if(scrolled){
+        x.push('scrolled');
+    }
     const openNav = () => {
         document.getElementById("mySidenav").style.width = "250px";
     }
@@ -32,6 +54,7 @@ const Navbar = () => {
                 <a className="opacity-80 hover:bg-orange-500 hover:text-white">Contact</a>
             </Link>
         </div>
+        <div className={x.join(" ")}>
         <header className="px-10 grid grid-cols-4">
             <div className="logo col-span-4 lg:col-span-2 mx-auto lg:ml-12 ">
                 <Link href="/">
@@ -75,6 +98,7 @@ const Navbar = () => {
                 </ul>
             </nav>
         </header>
+        </div>
     </>
   )
 }

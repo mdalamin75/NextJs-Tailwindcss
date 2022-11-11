@@ -49,7 +49,7 @@ const About = () => {
     }
   return (
     <>
-        <section id="about" className="py-40 space-y-20">
+        <section id="about" className="pt-40 pb-60 space-y-20 min-height-full">
             <div className="container px-4 md:px-20 flex justify-center items-center">
                 <div className="grid grid-cols-3 space-y-20">
                     <div className="col-span-3 lg:col-span-1 flex flex-col justify-center text-left space-y-5">
@@ -76,7 +76,7 @@ const About = () => {
             <div className="container px-4 md:px-20 pb-20">
                 <div className="grid grid-cols-3 space-y-20">
                     <div className="col-span-3 lg:col-span-2">
-                        <Image src={about2} alt="about-image" />
+                        <Image src={about2} alt="about-image"/>
                     </div>
                     <div className="col-span-3 lg:col-span-1 flex flex-col justify-center text-left space-y-5">
                         <h1 className="text-5xl md:text-6xl font-bold text-left">Ouer Cars</h1>

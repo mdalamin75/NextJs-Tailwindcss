@@ -75,8 +75,8 @@ const Footer = () => {
                                 <h3 className="text-white uppercase text-3xl font-medium">Contact Details</h3>
                                 <h3 className="text-white text-lg font-bold">AVALON Car : Adderess</h3>
                                 <ul className="text-white text-lg font-light ">
-                                    <li>Newyork 10012, USA</li>
-                                    <li>Phone: +987 654 3210</li>
+                                    <li>Newyork 11111, USA</li>
+                                    <li>Phone: +111 111 1000</li>
                                     <li>demo@gmail.com</li>
                                 </ul>
                             </div>
