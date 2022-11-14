@@ -34,8 +34,8 @@ const Footer = () => {
                         <div className="col-span-3 lg:col-span-1">
                             <div className="subscribe flex flex-col space-y-5">
                                 <h3 className="text-white uppercase text-2xl font-medium">Subscribe</h3>
-                                <input type="email" placeholder="Enter Your Email" className="p-3 outline-none" />
-                                <input type="button" value="Submit" className="text-white bg-orange-500 w-1/3 p-3 cursor-pointer transition duration-300 hover:bg-indigo-900"/>
+                                <input type="email" placeholder="Enter Your Email" className="p-3 outline-none rounded-md" />
+                                <input type="button" value="Submit" className="text-white bg-orange-500 w-1/3 p-3 cursor-pointer transition duration-300 hover:bg-indigo-900 rounded-full"/>
                             </div>
                         </div>
                         <div className="col-span-3 lg:col-span-1">
@@ -43,7 +43,7 @@ const Footer = () => {
                                 <h3 className="text-white uppercase text-3xl font-medium">Usefull Links</h3>
                                 <ul className="text-white space-y-2">
                                     <li className="list-disc marker:text-orange-500 marker:text-2xl text-xl ml-5">
-                                        <Link href="#home">
+                                        <Link href="/">
                                             <a>Home</a>
                                         </Link>
                                     </li>

@@ -5,7 +5,7 @@ const Contact = () => {
         <section id="contact" className="h-full relative bg-mycolor pb-44 mt-20">
             <div className="container px-4 md:px-20 space-y-20">
                 <div className="Contact_head flex justify-center">
-                    <h1 className="text-white text-center text-4xl font-bold bg-orange-500 px-10 md:px-20 py-5">Contact Us</h1>
+                    <h1 className="text-white text-center text-4xl font-bold bg-orange-500 px-10 md:px-20 py-5 rounded-md">Contact Us</h1>
                 </div>
                 <div className="contact_body">
                     <div className="grid grid-cols-2 gap-10">

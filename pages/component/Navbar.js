@@ -5,7 +5,13 @@ import { useState, useEffect } from "react";
 
 
 const Navbar = () => {
-    let Link = Scroll.Link;
+    const openNav = () => {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+      
+    const closeNav = () => {
+        document.getElementById("mySidenav").style.width = "0";
+    }
     const [scrolled,setScrolled]=useState(false);
 
     const handleScroll=() => {
@@ -25,13 +31,7 @@ const Navbar = () => {
     if(scrolled){
         x.push('scrolled');
     }
-    const openNav = () => {
-        document.getElementById("mySidenav").style.width = "250px";
-    }
-      
-    const closeNav = () => {
-        document.getElementById("mySidenav").style.width = "0";
-    }
+
   return (
     <>
         <div id="mySidenav" className="sidenav">
@@ -39,18 +39,21 @@ const Navbar = () => {
                 <a className="closebtn" onClick={closeNav}>&times;</a>
             </button>
             <Link href="/">
-                <a className="opacity-80 hover:bg-orange-500 hover:text-white">Home</a>
+                <a className="opacity-80 hover:bg-orange-500 hover:text-white">Home</a> 
             </Link>
-            <Link href="#about">
+            <Link href="/#about">
                 <a className="opacity-80 hover:bg-orange-500 hover:text-white">About</a>
             </Link>
-            <Link href="#choose_us">
+            <Link href="/#choose_us">
                 <a className="opacity-80 hover:bg-orange-500 hover:text-white">Why Choose Us</a> 
             </Link>
-            <Link href="#testimonial">
+            <Link href="/#testimonial">
                 <a className="opacity-80 hover:bg-orange-500 hover:text-white">Testimonial</a>
             </Link>
-            <Link href="#contact">
+            <Link href="/blog">
+                <a className="opacity-80 hover:bg-orange-500 hover:text-white">Blog</a>
+            </Link>
+            <Link href="/#contact">
                 <a className="opacity-80 hover:bg-orange-500 hover:text-white">Contact</a>
             </Link>
         </div>
@@ -103,4 +106,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

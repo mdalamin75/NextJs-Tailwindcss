@@ -38,7 +38,7 @@ const ChooseUs = () => {
         <section id="choose_us" className="bg-[#161c34] h-full relative mt-20 pb-44">
             <div className="container px-4 md:px-20 space-y-20 pb-20">
                 <div className="choose_us_head flex justify-center">
-                    <h1 className="text-white text-center text-4xl font-bold bg-orange-500 p-5">Why Choose Us</h1>
+                    <h1 className="text-white text-center text-4xl font-bold bg-orange-500 p-5 rounded-md">Why Choose Us</h1>
                 </div>
                 <div className="grid grid-cols-3 gap-20">
                     <div className="col-span-3 lg:col-span-1 text-white text-center space-y-5">
