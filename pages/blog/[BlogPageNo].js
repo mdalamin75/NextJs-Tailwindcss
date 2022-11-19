@@ -50,7 +50,7 @@ const BlogPagesData = ({data}) => {
                     <h3 className="bg-orange-500 text-white p-2 rounded-full w-10 text-center mb-3 font-bold">{id}</h3>
                     <h2 className="cursor-pointer text-xl font-semibold capitalize text-white">{title}</h2>
                     <p className="text-white mt-3 font-medium text-base">{body}</p>
-                    <Link href="/blog">
+                    <Link href="/blog" passHref>
                         <HiArrowLongLeft className="text-white text-6xl cursor-pointer"/>
                     </Link>
                 </div>

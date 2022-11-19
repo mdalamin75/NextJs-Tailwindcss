@@ -30,7 +30,7 @@ const Blog = () => {
             </div>
             {data.slice(0,5).map((curElem) => {
               return (
-                <Link href={`/blog/${curElem.id}`}>
+                <Link href={`/blog/${curElem.id}`} passHref>
                   <div key={curElem.id} className="bg-mycolor p-5 rounded-md cursor-pointer shadow-md shadow-white">
                     <h3 className="bg-orange-500 text-white p-2 rounded-full w-10 text-center mb-3 font-bold">{curElem.id}</h3>
                     <h2 className="text-xl font-semibold capitalize text-white">{curElem.title}</h2>
