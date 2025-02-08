@@ -50,7 +50,7 @@ const About = () => {
   return (
     <>
         <section id="about" className="pt-40 pb-60 space-y-20 min-height-full">
-            <div className="container px-4 md:px-20 flex justify-center items-center">
+            <div className="container mx-auto px-4 md:px-20 flex justify-center items-center">
                 <div className="grid grid-cols-3 space-y-20">
                     <div className="col-span-3 lg:col-span-1 flex flex-col justify-center text-left space-y-5">
                         <h1 className="text-5xl md:text-6xl font-bold text-left">About Us</h1>
@@ -73,7 +73,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="container px-4 md:px-20 pb-20">
+            <div className="container mx-auto px-4 md:px-20 pb-20">
                 <div className="grid grid-cols-3 space-y-20">
                     <div className="col-span-3 lg:col-span-2">
                         <Image src={about2} alt="about-image"/>
@@ -93,7 +93,7 @@ const About = () => {
                 </div>
             </div>
             <div id="seeMore">
-                <div  className="container px-4 md:px-20 flex justify-center items-center">
+                <div  className="container mx-auto px-4 md:px-20 flex justify-center items-center">
                     <div className="grid grid-cols-3 space-y-20">
                         <div className="col-span-3 lg:col-span-1 flex flex-col justify-center text-left space-y-5">
                             <h1 className="text-5xl md:text-6xl font-bold text-left">About Us</h1>
