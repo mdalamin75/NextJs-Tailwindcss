@@ -36,7 +36,7 @@ const ChooseUs = () => {
   return (
     <>
         <section id="choose_us" className="bg-[#161c34] h-full relative mt-20 pb-44">
-            <div className="container px-4 md:px-20 space-y-20 pb-20">
+            <div className="container mx-auto px-4 md:px-20 space-y-20 pb-20">
                 <div className="choose_us_head flex justify-center">
                     <h1 className="text-white text-center text-4xl font-bold bg-orange-500 p-5 rounded-md">Why Choose Us</h1>
                 </div>
