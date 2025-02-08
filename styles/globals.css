@@ -21,7 +21,7 @@ body{
 /* Custome Tailwind Start Here */
 
   .my_btn_main {
-    @apply w-44 h-11 bg-orange-500 float-left mr-4 rounded-full text-lg text-white text-left pt-2 pr-14 pb-0 pl-5 relative tracking-wider cursor-pointer transition duration-300 hover:bg-indigo-900;
+    @apply w-48 h-11 bg-orange-500 float-left mr-4 rounded-full text-lg text-white text-left pt-2 pr-14 pb-0 pl-5 relative tracking-wider cursor-pointer transition duration-300 hover:bg-indigo-900;
   }
   .my_btn_inner {
     @apply absolute right-0 top-0 bottom-0 text-black bg-slate-100 w-12 h-auto text-center rounded-r-full;
